@@ -1,7 +1,10 @@
 Conception et implémentation d’une application web pour la 
 gestion des emplois du temps et des salles de la section informatique.
 Fonctionnalités attendues
+<br/>
+
 Permettre:
+
  Aux professeurs responsables de classes de :
 o Gérer les modules (avec leurs volumes horaires) de leurs classes,
 o Gérer les enseignants de leurs classes
@@ -12,17 +15,23 @@ o de suivre l’évolution (volume horaire fait) d’un cours,
 o être notifiés de la fin d’un cours (volume horaire fait),
 o gérer les comptes des étudiants de leurs classes,
 o …
+
+<br/>
  Aux enseignants de : 
 o Gérer leurs disponibilités,
 o Visualiser leurs emplois du temps (EDT) ou les EDT des classes avec les salles,
 o Gérer l’évolution (volume horaire fait) de leurs cours, 
 o Gérer leurs profils,
 o …
+
+<br/>
  Aux étudiants de :
 o S’inscrire à leurs classes,
 o Visualiser leurs EDT avec les salles,
 o D’être notifiés des mises à jour de leurs EDT
 o …
+
+<br/>
  Aux gestionnaires des salles de :
 o ajouter de nouvelles salles avec leurs capacités
 o attribuer des salles aux cours,
@@ -30,7 +39,8 @@ o visualiser les EDT des salles et des classes
 o être notifiés des mises à jour des EDT des classes,
 o modifier les EDT des salles,
 o …
-2
+
+<br/>
  A l’administrateur de :
 o gérer (inscrire, modifier, supprimer) les enseignants,
 o gérer (ajouter, modifier, supprimer) les classes,
@@ -50,3 +60,6 @@ Travail demandé
  Diagrammes d’activités
 2. Implémentation de toutes les fonctionnalités demandées avec tous les outils et langages 
 vus dans le cours de développement WEB.
+<br/>
+
+DEMONSTRATION DU PROJET : https://www.youtube.com/embed/GIuOfv7NOkU?si=_ltLCb_Wv7ruEC3B 
