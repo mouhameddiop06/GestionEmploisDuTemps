@@ -4,7 +4,7 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: ../authentification.php");
     exit();
 }
-$user_name = $_SESSION['user_name'];
+$user_name = $_SESSION['user_name']; 
 ?>
 
 <!DOCTYPE html>
