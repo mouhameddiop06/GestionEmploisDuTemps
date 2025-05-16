@@ -4,7 +4,7 @@ include 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $password = $_POST['password'];  
     $role = $_POST['role'];
 
     // Préparation et exécution de la requête SQL
