@@ -2,7 +2,7 @@
 include 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nom = $_POST['nom'];
+    $nom = $_POST['nom']; 
     $prenom = $_POST['prenom'];
     $email = $_POST['email_inscription'];
     $password = $_POST['password_inscription'];
