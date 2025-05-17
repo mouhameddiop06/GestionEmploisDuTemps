@@ -25,7 +25,7 @@ $user_name = $_SESSION['user_name'];
             margin: 0 auto;
             padding: 2rem;
         }
-        .header {
+        .header { 
             background: linear-gradient(135deg, #3a7bd5, #00d2ff);
             color: white;
             padding: 2rem;
