@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_role'] !== 'Administrateur')
     header("Location: ../authentification.php");
     exit();
 }
-
+ 
 include '../config.php';
 
 // Vérifier si l'ID de l'enseignant est fourni
