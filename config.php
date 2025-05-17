@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'GestionEmploisDuTemps';
+$db = 'GestionEmploisDuTemps'; 
 $user = 'root';  
 $pass = '';
 
