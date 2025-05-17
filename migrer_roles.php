@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 
-// Récupérer tous les utilisateurs nh
+// Récupérer tous les utilisateurs
 $stmt = $pdo->query("SELECT id, role FROM Utilisateur");
 $users = $stmt->fetchAll();
 
