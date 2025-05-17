@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_role'] !== 'Administrateur')
     exit();
 }
 
-include '../config.php';
+include '../config.php'; 
 
 // Obtenir l'ID de l'enseignant à modifier depuis l'URL
 if (isset($_GET['id'])) {
